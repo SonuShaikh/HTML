@@ -1,0 +1,17 @@
+ div {
+	 height:350px;
+	 width:100%;
+	 
+	 margin-left:10px;
+	 background-image:url(google.png);
+	 background-repeat:no-repeat;/* no-repeat, repeat-x,repeat-y */
+	 background-position: left top ;
+	 /*center top ,center bottom, center left, center right, center, right bottom ,left bottom  */
+	 background-attachment:fixed;
+	 background-color:orange;
+	 
+ }
+ body{
+	 background-image:url(sonu.png);
+	 background-attachment:fixed;
+ }

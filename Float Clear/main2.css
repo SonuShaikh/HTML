@@ -1,0 +1,43 @@
+ .left_col{
+	 float:left;
+	 width:100px;
+	 height:50px;
+	 background-color:yellow;
+	 text-align:center;
+	 margin:10px;
+	 border-radius:15px;
+	 font-size:30px;
+	 
+ }
+ .middle_col{
+	 float:left;
+	 width:100px;
+	 height:50px;
+	 background-color:Red;
+	 text-align:center;
+	 margin:10px;
+	 border-radius:15px;
+	 font-size:30px;
+	 
+ }
+ 
+ .rigth_col{
+	 float:left;
+	 width:100px;
+	 height:50px;
+	 background-color:green;
+	 text-align:center;
+	 margin:10px;
+	 border-radius:15px;
+	 font-size:30px;
+ }
+ 
+ .left_col:hover{
+	 background-color: cyan;
+ }
+ .middle_col:hover{
+	 background-color: cyan;
+ }
+ .rigth_col:hover{
+	 background-color: cyan;
+ }

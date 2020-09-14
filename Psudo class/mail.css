@@ -1,0 +1,18 @@
+.parent p:nth-child(odd){
+	color:blue;
+	background-color:gray;
+	width : 200px;
+}
+.parent p:nth-child(even){
+	color:red;
+	background-color:yellow;
+	width:200px;
+}
+.parent p:nth-child(4n){
+	color:pink;
+	background-color:white;
+}
+.parent p:nth-child(5){
+	background-color:green;
+	text-decoration:underline;
+}

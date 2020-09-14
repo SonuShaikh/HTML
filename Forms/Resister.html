@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+ <head>
+      <title> Registration Form </title>
+	  <link rel="stylesheet" href="main.css"/>
+ </head>
+ <body>
+ 
+      <form action="" method="POST" name="register"> 
+	  
+	   <fieldset class="personal_info">
+	   
+	     <legend> Personal Info </legend>
+		 <label> FirstName:</label> <input type="text" name="FirstName" maxlength="15" size="30"/> <br/><br/>
+		 <label> LastName: </label><input type="text" name="LastName" maxlength="15" size="30"/> <br/><br/>
+		 <label> UserName: </label><input type="text" name="username" maxlength="15" size="30"/> <br/><br/>
+		 <label> Password: </label><input type="password" name="pass" maxlength="15" size="30" /> <br/><br/>
+		 <label> confirm Pass:</label><input type="password" name="passagain" maxlength="15" size="30" /><br/><br/>
+		 <label> Email:</label><input type="text" name="email" maxlength="30" size="30" /><br/><br/> 
+		 <label> State:</label><input type="text" name="state" maxlength="30" size="30" /><br/><br/>
+		 <label> City:</label><input type="text" name="City" maxlength="30" size="30" /><br/><br/>
+	 
+	  
+	  </fieldset>
+	   <fieldset class="Qualification">
+	       <legend> Qualification Table </legend>
+		 <label> Qualification</label>
+		 <select name="Qualification">
+		   <optgroup label="High School">
+			<option value="10th_pass">10th Pass</option>
+			<option value="12th_pass">12th pass</option>
+		   </optgroup>	
+		   <optgroup label="University">
+			<option value="graduat">Graduated</option>
+			<option value="pg"> Post Graduated</option>
+		   </optgroup>	
+		 </select>
+		<br/><br/>
+	   </fieldset>
+	    
+	      <fieldset class="Genral" >	      
+			Do You Have ?? <br/>
+			<label> Internet Connection</label> <input type="checkbox" name="have" value="inet"/>
+			<label> iphone </label><input type="checkbox" name="have" value="Iphone" />
+			<label> Bacis comp Knowledg <input type="checkbox" name="have" value="basicComp" />
+			<label> None of these <input type="checkbox" name='have'value="none"/><br/><br/>
+       
+	   
+	    
+			I am a <br/>
+			<label> Male</label> <input type="radio" name="name" value="Male"/>
+			<label> Female</label> <input type="radio" name="name" value="Female"/>
+			<label> Other</label> <input type="radio" name="name" value="other"/>	
+			
+	   	     
+	    <footer>
+	        <input type="submit" value="Register"/>
+			<input type="reset" value="Reset"/>
+	    </footer>
+	</fieldset> 
+      </form>
+     
+ </body>
+<html>

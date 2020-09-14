@@ -1,0 +1,30 @@
+.para:first-line{
+	 color:red;
+	 width:bold;
+	 size:20px;
+
+ }
+  p:first-letter{
+	 color:red;
+	 width:bold;
+	 size:20px;
+	 text-decoration:underline;
+ }
+
+#parent p:first-child{
+	color:blue;
+	width:bold;
+	size:20px;
+}
+#parent p:last-child{
+	color:yellow;
+	width:bold;
+	size:20px;
+}
+
+#parent p:before{
+	content:"I'm your before ";
+}
+#parent p:after{
+	content:" I'm your after.";
+}

@@ -1,0 +1,10 @@
+  div{
+	  border:5px solid blue;
+	  width:250px;
+	  background-color:yellow;
+	  margin:10px;
+  }
+  span{
+	  color:red;
+	  text-decoration:underline ;
+  }

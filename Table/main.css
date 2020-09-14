@@ -1,0 +1,22 @@
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+td,th{
+	border:1px solid black;
+	padding:5px;
+}
+thead{
+	background-color:#eeddff;
+}
+thead:hover{
+	background-color:blue;
+}
+tr:nth-child(2n){
+    background-color:#ffeecc;	
+}
+tfoot{
+	text-align:center;
+	background-color:#eeccaa;
+}

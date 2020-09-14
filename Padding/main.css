@@ -1,0 +1,27 @@
+h1{
+	background-color:yellow;
+	
+	/* 
+	padding-bottom:10;
+	padding-top:10;
+	padding-right:40;
+	padding-left:40; 
+	padding each site individualy.
+	*/
+	/* padding: 10px 20px 30px 40px  padding top right bottom left */
+	padding: 10px 20px;  /* padding top bottom left right */
+	
+	
+	/* border-style:dotted; solid, dashed,dotted, rigde 
+	border-width:10px;
+	border-color:cyan; */
+	/* border:10 solid RED; syntax : border:width style color */
+	border-bottom:7px groove orange;
+    border-top:7px solid RED;
+    border-left:10px dotted pink;	
+	border-right:30px dashed black;
+	margin:10px 20px 30px 40px;
+}
+body{
+	margin:0px;
+}

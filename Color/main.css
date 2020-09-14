@@ -1,0 +1,8 @@
+ div {
+	 border:3px solid black;
+	 width:250;
+	 height:200;
+	 background-color:rgb(255,55,25);
+	 color:#00ffff;
+	 text-decoration:underline;
+ }

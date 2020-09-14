@@ -1,0 +1,11 @@
+.rounded_box{
+	background-color:#0299ef;
+	width:400px;
+	text-align:center;
+	padding: 50px 0px;
+	border-radius:30px;
+	
+	font-size:50px;
+	background-image:linear-gredient(to top,#4507b,#00a2ff);
+	
+}
